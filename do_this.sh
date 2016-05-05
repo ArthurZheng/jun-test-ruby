@@ -13,6 +13,7 @@ chruby $RUBY
 echo "Before bundle install -------------------"
 bundle install
 bundle show awesome_print
+bundle show ec2-blackout
 
 echo "End bundle install -------------------"
 echo "now bundle exec test.rb"
