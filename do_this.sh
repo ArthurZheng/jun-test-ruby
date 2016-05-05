@@ -14,7 +14,7 @@ echo "Before bundle install -------------------"
 bundle install
 bundle show awesome_print
 
-bundle show ec2-blackout-0.0.9
+bundle show commander
 
 "End bundle install -------------------"
 echo "now bundle exec test.rb"
