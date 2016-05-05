@@ -14,7 +14,7 @@ echo "Before bundle install -------------------"
 bundle install
 
 echo "End bundle install -------------------"
-bundle exec ruby ./test.rb
+#bundle exec ruby ./test.rb
 
 echo "bundle exec finished"
 

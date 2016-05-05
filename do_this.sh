@@ -14,6 +14,8 @@ echo "Before bundle install -------------------"
 bundle install
 
 echo "End bundle install -------------------"
+echo "now bundle exec test.rb"
+
 bundle exec ruby ./test.rb
 
 echo "bundle exec finished from inside do_this.sh"
