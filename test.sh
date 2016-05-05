@@ -10,8 +10,10 @@ RUBY=`cat .ruby-version`
 echo "Using ruby ${RUBY}"
 chruby $RUBY
 
+echo "Before bundle install -------------------"
 bundle install
 
+echo "End bundle install -------------------"
 bundle exec ruby ./test.rb
 
 echo "bundle exec finished"
