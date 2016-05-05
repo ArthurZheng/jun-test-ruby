@@ -4,7 +4,7 @@ echo "print our work directory `pwd`"
 
 source /usr/local/share/chruby/chruby.sh
 
-echo "echo 'ec2-blackout' >> Gemfile"
+echo "echo 'gem \"ec2-blackout\"' >> Gemfile"
 echo "echo ec2-blackout added to Gemfile"
 
 RUBY=`cat .ruby-version`
