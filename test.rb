@@ -1,3 +1,3 @@
 require 'awesome_print'
-ap 'Jun!!'
+ap 'Jun rocks!!'
 
