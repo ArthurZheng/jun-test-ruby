@@ -12,7 +12,7 @@ chruby $RUBY
 
 echo "Before bundle install -------------------"
 bundle install
-bundle show ec2-blackout
+bundle show awesome_print
 
 
 
